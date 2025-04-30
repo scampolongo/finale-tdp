@@ -1,0 +1,34 @@
+<%- include('partials/header') %>
+<h1 class="mb-3">Dazi imposti</h1>
+<!-- View Section -->
+<table class="table table-striped mb-4">
+  <thead><tr><th>Paese</th><th>Tariffa (%)</th></tr></thead>
+  <tbody>
+    <% tariffs.forEach((t) => { %>
+      <tr><td><%= t.country %></td><td><%= t.rate %></td></tr>
+    <% }); %>
+  </tbody>
+</table>
+
+<!-- Edit Section -->
+<button class="btn btn-warning mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#editor" aria-expanded="false">Modifica Dazi</button>
+<div class="collapse" id="editor">
+  <div class="card card-body">
+    <table class="table table-bordered">
+      <thead><tr><th>Paese</th><th>Tariffa (%)</th><th>Azione</th></tr></thead>
+      <tbody id="tariff-body">
+        <% tariffs.forEach((t) => { %>
+          <tr>
+            <td><input class="form-control" value="<%= t.country %>"></td>
+            <td><input class="form-control" type="number" value="<%= t.rate %>"></td>
+            <td><button class="btn btn-danger btn-sm remove-btn">Rimuovi</button></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+    <button id="add-btn" class="btn btn-success mb-3">Aggiungi</button>
+    <button id="save-btn" class="btn btn-primary mb-3">Salva modifiche</button>
+  </div>
+</div>
+<script src="/js/tariffs.js"></script>
+<%- include('partials/footer') %>

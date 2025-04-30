@@ -1,0 +1,62 @@
+[
+  {
+    "country": "Cina",
+    "rate": 25
+  },
+  {
+    "country": "Unione Europea",
+    "rate": 10
+  },
+  {
+    "country": "Canada",
+    "rate": 10
+  },
+  {
+    "country": "Messico",
+    "rate": 5
+  },
+  {
+    "country": "Giappone",
+    "rate": 15
+  },
+  {
+    "country": "India",
+    "rate": 20
+  },
+  {
+    "country": "Corea del Sud",
+    "rate": 18
+  },
+  {
+    "country": "Brasile",
+    "rate": 12
+  },
+  {
+    "country": "Australia",
+    "rate": 8
+  },
+  {
+    "country": "Vietnam",
+    "rate": 22
+  },
+  {
+    "country": "Turchia",
+    "rate": 17
+  },
+  {
+    "country": "Russia",
+    "rate": 14
+  },
+  {
+    "country": "Indonesia",
+    "rate": 16
+  },
+  {
+    "country": "Sud Africa",
+    "rate": 11
+  },
+  {
+    "country": "Tailandia",
+    "rate": 19
+  }
+]
