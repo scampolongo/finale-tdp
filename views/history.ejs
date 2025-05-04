@@ -1,7 +1,7 @@
 <%- include('partials/header') %>
-<h1>Storia dei dazi di Trump</h1>
+<h1 class="text-center">Storia dei dazi di Trump</h1>
 <% history.forEach((item, i) => { %>
   <h2><%= item.title %></h2>
-  <p><%= item.content %></p>
+  <p><%- item.content %></p>
 <% }); %>
 <%- include('partials/footer') %>

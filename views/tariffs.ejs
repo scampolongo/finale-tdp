@@ -20,7 +20,7 @@
         <% tariffs.forEach((t) => { %>
           <tr>
             <td><input class="form-control" value="<%= t.country %>"></td>
-            <td><input class="form-control" type="number" value="<%= t.rate %>"></td>
+            <td><input class="form-control" type="number" min="0" value="<%= t.rate %>"></td>
             <td><button class="btn btn-danger btn-sm remove-btn">Rimuovi</button></td>
           </tr>
         <% }); %>
