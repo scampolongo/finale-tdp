@@ -1,11 +1,11 @@
 [
   {
     "country": "Cina",
-    "rate": 4
+    "rate": 25
   },
   {
     "country": "Unione Europea",
-    "rate": 2
+    "rate": 10
   },
   {
     "country": "Canada",
@@ -13,7 +13,7 @@
   },
   {
     "country": "Messico",
-    "rate": 1
+    "rate": 5
   },
   {
     "country": "Giappone",
